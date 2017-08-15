@@ -1,0 +1,191 @@
+* {
+	margin: auto;
+	font-family: Muli;
+}
+
+/* Navigation Section */
+
+nav {
+	background-color: #FE7E00;
+	height: 120px;
+	/*border-bottom: 6px groove #FC7B03;*/
+}
+
+nav ul {
+	display: inline-block;
+	padding: 0 50px 20px 0;
+	margin-left: 140px;
+}
+
+nav ul li {
+	margin-top: 25px;
+	display: inline-block;
+	padding: 30px;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 70px;
+	margin-right: 65px;
+}
+
+.logo h1  {
+	display: inline;
+	color: #FFF;
+	font-size: 40px;
+	font-weight: 300;
+	padding-left: 30px;
+}
+
+nav .logo h1 span {
+	font-weight: 900;
+}
+
+nav .logo sup {
+	font-weight: 100;
+	font-size: 10px;
+}
+
+
+.container {
+	margin: auto;
+	width: 97%;
+}
+
+/* --- Search section --- */
+
+.search form input {
+	background-color: #EFEFEF;
+	height: 65px;
+	width: 250px;
+	border: none;
+	color: #D9D9D9;
+	font-size: 16px;
+}
+
+.search form input {
+	
+}
+
+.search-icon {
+		/*border: 1px solid #000;*/
+		display: inline-block;
+		float: right;
+		margin: 5px 50px 0 0;
+		height: 49px;
+		width: 45px;
+		background-color: #EFEFEF;
+		text-align: center;
+		padding-top: 18px;
+		padding-right: 10px;
+}
+
+.search-icon .fa-search {
+	color: #D9D9D9;
+	font-size: 26px;
+}
+
+.search {
+	float: right;
+	display: inline-block;
+	margin: 5px 0 50px;
+}
+
+ /* --- Main Section --- */
+.main {
+	/*border: 1px solid #000;*/
+	display: inline;
+	float: right;
+	margin: 20px auto;
+	width: 48%;
+	height: 280px;
+	padding-top: 50px;
+	text-align: left;
+	overflow: scroll;
+}
+
+div.main {
+	margin-right: 50px;
+}
+
+/* ---  Image Section --- */
+.orange {
+	/*margin: 50px;*/
+	height: 450px;
+	width: 450px;
+	display: inline;
+	float: left;
+	margin: 100px auto;
+	width: 40%;
+}
+
+.orange {
+	margin-left: 100px;
+}
+
+ /* --- Main Paragraph Section --- */
+
+.description p {
+	/*display: inline;*/
+	color: #FE7E00;
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 55px;
+	/*padding-left: 30px;*/
+}
+
+ .description p span {
+	font-weight: 900;
+}
+
+.blue {
+	font-weight: 900;
+	color: #7ACCC8;
+}
+
+.description p sup {
+	font-weight: 900;
+	font-size: 14px;
+}
+
+/* --- Text and Button Section --- */
+.buttons {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.left-button {
+	height: 67px;
+	width: 290px;
+	margin-right: 25px;
+	background-color: #FE7E00;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.right-button {
+	height: 67px;
+	width: 290px;
+	margin-left: 5px;
+	background-color: #7ACCC8;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+/* --- Footer section --- */
+
+footer {
+	background-color: #7ACCC8;
+	height: 120px;
+}
+
