@@ -14,7 +14,8 @@ nav {
 nav ul {
 	display: inline-block;
 	padding: 0 50px 20px 0;
-	margin-left: 140px;
+	margin-left: 21%;
+	font-size: 18px;
 }
 
 nav ul li {
@@ -31,7 +32,7 @@ nav ul li a {
 
 .logo {
 	display: inline-block;
-	margin-left: 70px;
+	margin-left: 90px;
 	margin-right: 65px;
 }
 
@@ -102,17 +103,16 @@ nav .logo sup {
 	/*border: 1px solid #000;*/
 	display: inline;
 	float: right;
-	margin: 20px auto;
-	width: 48%;
+	margin: 0 auto;
+	width: 42%;
 	height: 280px;
 	padding-top: 50px;
 	text-align: left;
-	overflow: scroll;
 }
 
-div.main {
+/*div.main {
 	margin-right: 50px;
-}
+}*/
 
 /* ---  Image Section --- */
 .orange {
@@ -121,13 +121,14 @@ div.main {
 	width: 450px;
 	display: inline;
 	float: left;
-	margin: 100px auto;
+	/*margin: 60px 90px 60px 0;*/
+	padding: 90px 0 90px 160px;
 	width: 40%;
 }
 
-.orange {
+/*.orange {
 	margin-left: 100px;
-}
+}*/
 
  /* --- Main Paragraph Section --- */
 
@@ -157,7 +158,8 @@ div.main {
 /* --- Text and Button Section --- */
 .buttons {
 	padding-top: 40px;
-	text-align: center;
+	margin: auto;
+	width: 100%;
 }
 
 .left-button {
@@ -185,7 +187,34 @@ div.main {
 /* --- Footer section --- */
 
 footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	background-color: #7ACCC8;
 	height: 120px;
 }
 
+/* --- Responsive design --- */
+
+@media (max-width: 1222px) {
+	nav ul {
+		color: blue;
+		margin-left: 15%;
+		font-size: 200px;
+	}
+
+}
+
+/*@media (max-width: 1200px) {
+	ul {
+		margin-left: 5%;
+	}
+
+
+
+@media (max-width: 1100px) {
+	ul {
+		margin-left: 3%;
+	}
+
+}*/
