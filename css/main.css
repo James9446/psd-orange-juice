@@ -11,12 +11,30 @@ nav {
 	/*border-bottom: 6px groove #FC7B03;*/
 }
 
+nav .nav-wrap {
+	width: 100%
+}
+
+
+nav ul {
+    display: inline;
+    /* padding: 0 50px 20px 0; */
+    /* margin-left: 21%; */
+    font-size: 18px;
+    width: 50%;
+    /* text-align: right; */
+    padding: 0;
+    /* margin: auto; */
+}
+
+/*  original nav ul
+
 nav ul {
 	display: inline-block;
 	padding: 0 50px 20px 0;
 	margin-left: 21%;
 	font-size: 18px;
-}
+}*/
 
 nav ul li {
 	margin-top: 25px;
@@ -30,11 +48,22 @@ nav ul li a {
 	color: #FFF;
 }
 
+
+.logo {
+    display: inline-block;
+    /* margin-left: 90px; */
+    /* margin-right: 65px; */
+    width: 50%;
+}
+
+
+/*         Original .logo
+
 .logo {
 	display: inline-block;
 	margin-left: 90px;
 	margin-right: 65px;
-}
+}*/
 
 .logo h1  {
 	display: inline;
@@ -114,7 +143,7 @@ nav .logo sup {
 	width: 50%;
 	height: 280px;
 	/*padding-top: 50px;*/
-	text-align: left;
+	/*text-align: left;*/
 }
 
 /*div.main {
@@ -125,8 +154,10 @@ nav .logo sup {
 div.orange {
 	/*margin: auto;*/
 	white-space: normal;
-	width: 49%;
+	width: 50%;
 	display: inline-block;
+	text-align: center;
+	/*padding: 4% 0 0% 4%;*/
 	/*margin: 60px 90px 60px 0;*/
 	/*padding: 90px 0 90px 160px;*/
 }
@@ -201,18 +232,18 @@ footer {
 
 /* --- Responsive design --- */
 
-@media (min-width: 1222px) {
+/*@media (min-width: 1222px) {
 	nav ul {
 		margin-left: 15%;
 	}
 
-}
+}*/
 
-@media (min-width: 1134px) {
+/*@media (min-width: 1134px) {
 	nav ul {
 		margin-left: 10%;
 	}
-
+*/
 
 
 
