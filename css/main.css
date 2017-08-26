@@ -14,6 +14,11 @@ sup {
 	font-weight: 300;
 }
 
+.row {
+	margin-top: 8%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
 /** {
 	margin: auto;
 	font-family: Muli;
