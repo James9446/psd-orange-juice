@@ -14,6 +14,11 @@ sup {
 	font-weight: 300;
 }
 
+.row {
+	margin-top: 8%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
 /** {
 	margin: auto;
 	font-family: Muli;
@@ -213,7 +218,17 @@ div.orange {
 }
 
 /* --- Text and Button Section --- */
-.buttons {
+
+.btn {
+	width: 16em;
+	height: 5em;
+}
+
+.btn-warning {
+	color: #FFF;
+}
+
+/*.buttons {
 	padding-top: 40px;
 	margin: auto;
 	width: 100%;
@@ -239,17 +254,21 @@ div.orange {
 	border: none;
 	border-radius: 5px;
 	font-size: 16px;
-}
+}*/
 
 /* --- Footer section --- */
 
-footer {
+.page-footer {
+	background-color: #7ACCC8;
+	height: 5em;
+}
+/*footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	background-color: #7ACCC8;
 	height: 120px;
-}
+}*/
 
 /* --- Responsive design for nav ignored until bootstrap learned --- */
 
@@ -277,9 +296,9 @@ footer {
 }*/
 
 /* --- Responsive design for main content --- */
-@media (max-width: 765px;) {
+/*@media (max-width: 765px;) {
 	.wrap {
-		/*text-align: center;*/
+		text-align: center;
 		display: none;
 	}
 	div.orange {
@@ -290,7 +309,7 @@ footer {
 		width: 100%;
 	}
 
-}
+}*/
 
 
 
